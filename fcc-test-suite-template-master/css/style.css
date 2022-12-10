@@ -52,7 +52,8 @@ nav{
 
 
 .email-subs > .heading{
-    padding: 0.25em 0;
+    /* padding: 0.25em 0; */
+    margin-bottom: 20px;
 }
 
 .form{
