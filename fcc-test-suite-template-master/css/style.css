@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+header{
+    height: 4.65em;
+    padding: 0 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 2;
+    /* width: 25%; */
+    
+}
+
+.logo-img{
+    width: auto;
+    height: 2.1em;
+}
+
+nav{
+    flex: 1;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav-links > li{
+    /* font-size: 2em; */
+    /* padding: 0 .5em; */
+}
+
+.email-subs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form > input, button{
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+
+.email-subs > .heading{
+    padding: 0.25em 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form > input{
+    width: 90%;
+}
+
+.form > button{
+    border: none;
+    background-color: #f1c40f;
+    /* width: 70%; */
+}
