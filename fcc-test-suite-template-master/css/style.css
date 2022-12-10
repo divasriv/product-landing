@@ -21,8 +21,6 @@ header{
 
 .logo{
     flex: 2;
-    /* width: 25%; */
-    
 }
 
 .logo-img{
@@ -38,11 +36,6 @@ nav{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-}
-
-.nav-links > li{
-    /* font-size: 2em; */
-    /* padding: 0 .5em; */
 }
 
 .email-subs{
@@ -77,21 +70,15 @@ nav{
 .form > button{
     border: none;
     background-color: #f1c40f;
-    /* width: 70%; */
 }
 .properties-container{
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     width: 70%;
     margin: auto;
 }
 .pr{
-    /* padding: 20px; */
     display: flex;
-    /* width:80%; */
-    /* justify-content: center; */
     align-items: center;
     height: 7.5em;
     margin-top: 3em;
@@ -99,16 +86,12 @@ nav{
 }
 .pr>i{
     padding: 20px 25px 20px 20px;
-    /* background-color: #f1c40f; */
-    /* justify-content: center; */
-
     color: #f1c40f;
 }
 .data{
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: left;
 }
 .iframe{
@@ -116,4 +99,74 @@ nav{
     margin-top: 40px;
     display: flex;
     justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 3em auto;
+}
+
+.card{
+    border-radius: 3px;
+    margin: 2em .5em;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.card > p{
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card > h1, ul{
+    padding: 10px 0;
+}
+
+.card > ul > li{
+    padding: 5px 0;
+    list-style: none;
+}
+
+.card > button{
+    border: none;
+    background-color: #f1c40f;
+    padding: 0.9em 2em
+}
+
+footer{
+    padding: 1em;
+    background-color: lightgray;
+    margin: auto;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+footer > ul{
+    display: flex;
+    list-style: none;
+}
+
+footer > ul > li > a{
+    text-decoration: none;
+    color: #000;
+}
+
+footer > ul > li, span{
+    padding: 0 1em;
+}
+
+span{
+    color: gray;
 }
