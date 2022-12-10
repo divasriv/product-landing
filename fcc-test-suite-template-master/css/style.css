@@ -79,3 +79,41 @@ nav{
     background-color: #f1c40f;
     /* width: 70%; */
 }
+.properties-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 70%;
+    margin: auto;
+}
+.pr{
+    /* padding: 20px; */
+    display: flex;
+    /* width:80%; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 7.5em;
+    margin-top: 3em;
+
+}
+.pr>i{
+    padding: 20px 25px 20px 20px;
+    /* background-color: #f1c40f; */
+    /* justify-content: center; */
+
+    color: #f1c40f;
+}
+.data{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: left;
+}
+.iframe{
+    padding-top: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
